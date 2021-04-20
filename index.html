@@ -30,11 +30,12 @@
   </head>
   <body>
     <div class="sidebar">
-      <img src="workout.png" alt="Logo" class="logo" />
-      <p class="disc">
-        Click on the map to keep track of your workout!<br />
-        (Please allow location access in your broswer)
+      <img src="run.png" alt="Logo" class="logo" />
+      <p>
+        (Click here to clear your workout routes)
+        <span class="close"> XXX</span>
       </p>
+      <p class="disc">Click on the map to keep track of your workout!</p>
       <ul class="workouts">
         <form class="form hidden">
           <div class="form__row">
@@ -46,7 +47,10 @@
           </div>
           <div class="form__row">
             <label class="form__label">Distance</label>
-            <input class="form__input form__input--distance" placeholder="km" />
+            <input
+              class="form__input form__input--distance"
+              placeholder="miles"
+            />
           </div>
           <div class="form__row">
             <label class="form__label">Duration</label>
@@ -73,10 +77,7 @@
         </form>
       </ul>
 
-      <p class="copyright">
-        &copy; Copyright by <a href="#">Jaekeun Cho</a>
-        Created for demonstration purpose.
-      </p>
+      <p class="copyright">&copy; Copyright by <a href="#">Jaekeun Cho</a></p>
     </div>
 
     <div id="map"></div>

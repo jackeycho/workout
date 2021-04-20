@@ -69,6 +69,13 @@ a:visited {
   width: 0;
 }
 
+.close {
+  cursor: pointer;
+}
+.close:hover {
+  font-size: 11px;
+}
+
 .workout {
   background-color: var(--color-dark--2);
   border-radius: 5px;
@@ -226,3 +233,12 @@ a:visited {
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 10px solid var(--color-brand--1);
 }
+
+/* @keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+} */
